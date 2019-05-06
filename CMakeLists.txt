@@ -37,11 +37,4 @@ ADD_SUBDIRECTORY(Source/Lib/AGZUtils)
 ADD_SUBDIRECTORY(Source/Lib/imgui)
 ADD_SUBDIRECTORY(Source/Lib/cnpy)
 	
-ADD_SUBDIRECTORY(Source/Atrc/Core)
-ADD_SUBDIRECTORY(Source/Atrc/Mgr)
-ADD_SUBDIRECTORY(Source/Atrc/Editor)
-ADD_SUBDIRECTORY(Source/Atrc/EnvLight)
-ADD_SUBDIRECTORY(Source/Atrc/SH2D)
-ADD_SUBDIRECTORY(Source/Atrc/Launcher)
 ADD_SUBDIRECTORY(Source/Atrc/RHNNViewer)
-

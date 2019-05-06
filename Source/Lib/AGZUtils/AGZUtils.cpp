@@ -1,8 +1,12 @@
 #define AGZ_ALL_IMPL
 
-// ReSharper disable once CppUnusedIncludeDirective
 #include <AGZUtils/Utils/Texture.h>
-// ReSharper disable once CppUnusedIncludeDirective
-#include <Atrc/Editor/GL.h>
-// ReSharper disable once CppUnusedIncludeDirective
+
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+
+#define AGZ_USE_GLFW
+#define AGZ_USE_OPENGL
+
 #include <AGZUtils/Input/GLFWCapturer.h>
+#include <AGZUtils/Utils/GL.h>
